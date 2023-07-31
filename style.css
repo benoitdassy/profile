@@ -1,0 +1,92 @@
+
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+h1, h2, h3 {
+  color:#DFD7BF;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  background-color: #3F2305;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 15px auto;
+  width: 10em;
+  border-radius: 10px;
+}
+
+.button-social-media{
+  width: 20px;
+}
+
+a:hover {
+  background-color: #DFD7BF;
+  color: #3F2305
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 15px;
+  padding:0px 20px ;
+}
+
+.list-inline{
+  padding: 0px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 5px 10px;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #F2EAD3;
+  position: relative;
+  top: 0;
+  transition: top ease 0.4s;
+}
+
+.card-white:hover {
+  top: -10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
